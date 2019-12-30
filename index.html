@@ -12,5 +12,34 @@
 
 		<h1 id="title">Hello World!</h1>
 		<p id="description">We are software developers something more</p>
+		<form id="survey-form">
+			<label for="name" id="name-label">Name:</label>
+			<input type="text" id="name" placeholder="Enter your name" required />
+			<label for="email" id="email-label">Email:</label>
+			<input type="email" id="email" placeholder="enter your email" required />
+			<label for="number" id="number-label">Phone:</label>
+			<input
+				type="number"
+				id="number"
+				placeholder="Enter your number"
+				max="5"
+				min="1"
+				required
+			/>
+			<select id="dropdown">
+				<option value="">Male</option>
+				<option value="">Female</option>
+			</select>
+			<input type="radio" name="gender" value="male" />Male
+			<input type="radio" name="gender" value="male" />Female
+			<input type="radio" name="gender" value="male" />Others
+
+			<!--Checkboxes  -->
+			<input type="checkbox" value="color" id="" />Red
+			<input type="checkbox" value="color" id="" />Green
+			<input type="checkbox" value="color" id="" />Yellows
+			<textarea placeholder="Add a comment"></textarea>
+			<button id="submit">Submit</button>
+		</form>
 	</body>
 </html>
